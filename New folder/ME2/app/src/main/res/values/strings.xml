@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" >My Board</string>
+    <string-array name="spinner">
+        <item>ToDo</item>
+        <item>Processing</item>
+        <item>Done</item>
+    </string-array>
+</resources>

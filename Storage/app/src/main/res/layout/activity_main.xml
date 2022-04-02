@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="Total Memory Space:"
+        android:textColor="#000000"
+        android:textSize="14dp"
+
+        />
+
+    <TextView
+        android:id="@+id/spaceValue"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="#000fff"
+        android:textSize="14dp"
+
+        />
+
+    <TextView
+        android:id="@+id/free"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="Free space:"
+        android:textColor="#000000"
+        android:textSize="14dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/freeValue"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="#000fff"
+        android:textSize="14dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/onAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="Insert a letter from a to z to get its address:"
+        android:textColor="#000000"
+        android:textSize="14dp"
+
+        />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:hint="Write here..."
+        android:textColorHint="#000fff"
+        android:textSize="14dp"
+
+        />
+
+    <TextView
+        android:id="@+id/ValueText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:background="#ffffa9"
+        android:gravity="center"
+        android:text="address is:"
+        android:textColor="#000000"
+        android:textSize="14dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/ValueOfAddress"
+        android:text="..."
+        android:gravity="center"
+        android:background="#ffffa9"
+        android:textColor="#000fff"
+        android:textSize="14dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/search"
+        android:text="Search Adress"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000fff"
+        android:textSize="14dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
